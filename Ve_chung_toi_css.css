@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Hind+Siliguri:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Hind+Siliguri:wght@300&family=Pacifico&display=swap');
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow' ;
+    color : white;
+}
+
+.header {
+    height: 50px;
+    box-shadow: 0 0 2px black;
+    background: rgba(253, 226, 202, 0.5);
+}
+
+.nav a {
+    text-decoration: none;
+    color : black;
+    line-height: 50px;
+    padding : 0px 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Barlow';
+}
+
+.nav a:hover {
+    background: rgb(194, 103, 103);
+    display: inline-block;
+    transition: 1.4s;
+}
+
+.nav button {
+    float : right;
+    border: none;
+    color : black;
+    margin: auto;
+    padding : 0 40px;
+    line-height: 50px;
+    font-family: 'Barlow';
+    background: inherit ;
+}
+
+.nav button:hover {
+    background: rgb(194, 103, 103);
+    transition: 1.4s;
+}
+
+.content {
+    text-align: center;
+    background: url(https://images.pexels.com/photos/2602490/pexels-photo-2602490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;
+    opacity: 0.88;
+    height: 100vh;
+}
+
+.content .header-content {
+   font-size: 50px;
+}
+
+.content .slogan-content {
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.content div {
+    width: 700px;
+    margin : auto;
+    text-align: justify;
+    opacity: 1;
+    font-size: 18px;
+}
+
+.header-content{
+   padding-top: 100px ;
+}
+
+.content .slogan-content{
+    margin : 50px;
+}
+
+fieldset {
+    margin : auto;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.lienhe {
+    font-size: 50px;
+    color : white;
+    margin : 0 80px;
+}
+
+.facebook:hover * , 
+.instagram:hover * {
+    color : rgb(6, 156, 6);
+    transition: 1s;
+}
+
+.facebook {
+    text-align: center !important;
+    margin: 10px 0px !important;
+}
+
+.instagram  {
+    text-align: center !important;
+    margin-bottom: 15px !important;
+}

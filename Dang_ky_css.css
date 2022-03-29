@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Hind+Siliguri:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Hind+Siliguri:wght@300&family=Pacifico&display=swap');
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow';
+    background: linear-gradient(to right , rgb(255, 134, 22 , 0.5) , rgb(255, 8, 8 , 0.5));
+}
+
+.header {
+    height: 50px;
+    box-shadow: 0 0 2px black;
+    background: rgba(253, 226, 202, 0.5) !important;
+}
+
+.nav a {
+    text-decoration: none;
+    color : black;
+    line-height: 50px;
+    padding : 0px 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Barlow';
+}
+
+.nav a:hover {
+    background: rgb(194, 103, 103);
+    display: inline-block;
+    transition: 1.4s;
+}
+
+.nav button {
+    float : right;
+    border: none;
+    color : black;
+    margin: auto;
+    padding : 0 40px;
+    line-height: 50px;
+    font-family: 'Barlow';
+    background: inherit ;
+}
+
+.nav button:hover {
+    background: rgb(194, 103, 103);
+    transition: 1.4s;
+}
+
+.formdangky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.cover_form {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 70px;
+    box-sizing: unset;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.829);
+}
+
+input {
+    width: 270px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+}
+
+form button {
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+    background: white;
+}
+
+form button:hover {
+    background :rgb(194, 103, 103);
+    transition: 0.8s;
+    color : white;
+}
+
+form p {
+    margin : 0 10px;
+    display: inline-block;
+    margin-right: 46px;
+}
+
+input[type="checkbox"]{
+    width: 12px;
+    transform: translateY(17px);
+    margin-right: 7px;
+}
+
+legend {
+    font-family: 'Pacifico';
+    font-size: 25px;
+}
+
+input[type="radio"]{
+    margin : 0;
+    width: 15px;
+    margin-right: 35px;
+    margin-left: 15px ;
+}
+
+.sex {
+    display: flex;
+    align-items: center;
+}
+
+.sex p {
+    margin-left: 10px;
+}
